@@ -1,0 +1,81 @@
+/* Start Header section */
+header ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    right: 0; top: 0;
+    bottom: 0;
+    width: 40vw;
+    background-color: #222;
+    height: 100vh;
+    clip-path:polygon(0 0, 100% 0,100% 0,0 0);
+}
+header ul.active{
+    clip-path:polygon(0 0, 100% 0,100% 100%,0 100%);
+}
+
+
+header ul a {
+    color: #fff;
+}
+
+#bar{
+    display: block;
+    cursor: pointer;
+    font-size: 21px;
+}
+#xmark{
+    display: block;
+    color: red;
+    font-size: 23px;
+    align-self: start;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+/* End Header section */
+
+/* Start Home section */
+.home .container,
+.about .container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.home h1{
+    font-size: 30px;
+}
+.home .container .home-info{
+    text-align: center;
+}
+.home .container .home-img{
+    text-align: center;
+}
+/* End Home section */
+.search #mag{
+    padding: 17px;
+    font-size: 18px;
+}
+
+/* Start about section */
+.about h2{
+    font-size: 30px;
+}
+/* End about section */
+
+
+/* End service section */
+.service .brand h2{
+    font-size: 25px;
+}
+/* End service section */
+
+.contact .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-bottom{
+    flex-direction: column;
+}

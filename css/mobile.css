@@ -1,0 +1,14 @@
+
+header ul a {
+    font-size: 13px;
+}
+.home h1{
+    font-size: 23px;
+}
+.search form{
+    width: 90%;
+}
+.search #mag{
+    padding: 17px;
+    font-size: 15px;
+}
